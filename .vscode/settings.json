@@ -1,22 +1,19 @@
+"files.autoSave": "afterDelay",
+"git.ignoreMissingGitWarning": true,
 "liveSassCompile.settings.formats": [
     {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/css"
-    },
-    {
-        "extensionName": ".min.css",
-        "format": "compressed",
-        "savePath": "/dist/css"
+        "savePath": null,
+        "savePathSegmentKeys": null,
+        "savePathReplaceSegmentsWith": null
     }
-],
-"liveSassCompile.settings.excludeList": [
-    "**/node_modules/**",
-    ".vscode/**"
-],
-"liveSassCompile.settings.generateMap": true,
-"liveSassCompile.settings.autoprefix": [
-    "> 1%",
-    "last 2 versions"
+]
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+
 ]
 }
