@@ -55,14 +55,14 @@ body {
 display: flex;  
 margin-left: 93px;
 }
-.header-nav{
+.header__nav{
   align-items: center;
   display: flex;
 }
 .text  .list{
   margin-left: auto;
 }
-.nav-flex {
+.header__nav-flex {
   align-items: center;
   display: flex;
 }
@@ -81,7 +81,8 @@ margin-left: 93px;
 
    /* outline: 2px solid red;  */
 } 
-.page-header{
+
+.header{
 /* border: 1px solid #ECECEC; */
 background-color: var(--logo-footer-color);
 border-bottom:1px solid #ECECEC;
@@ -90,11 +91,7 @@ h1, h2, h3, p{
   margin: 0;
   padding: 0;
 }
-.header-icon{
-  width: 15px;
-  height: 16px;
-  margin-right: 10px;
-}
+
 
  .section .no-podding {
   padding-top: 0;
@@ -135,7 +132,7 @@ margin-top: 0%;
   font-style: normal;
  }
 
-.part-logo {
+.logo__part-logo {
   color: var(--accent-color);
 }
 /* логин в футаре */
@@ -369,21 +366,7 @@ margin-top: 0%;
   margin-left: 93px;
 }
 
-.header-nav {
-  align-items: center;
-  display: flex;
-}
-
-.text .list {
-  margin-left: auto;
-}
-
-.nav-flex {
-  align-items: center;
-  display: flex;
-}
-
-.site-nav  .link.current::after {
+.site-nav__link--current::after {
   position: absolute;
   content: "";
   display: block;
@@ -396,11 +379,11 @@ margin-top: 0%;
 
 }
 
-.site-nav .list+ .list{
+.site-nav__list+ .site-nav__list{
   margin-left: 50px;
 }
 
-.site-nav .link{
+.site-nav__link{
 position: relative;
 
   padding-top: 32px;
@@ -416,19 +399,19 @@ position: relative;
 
    
 }
-.site-nav .link.current {
+.site-nav__link--current {
   color: var(--accent-color);
 }
 /* сайт nav */
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
     color: var(--accent-color);
  } 
 
 
  /* ul contact  header*/
- .text .link{
+ .text_link{
   align-items: center;
   display: inline-flex;
   color:var(--title-text-paragraph);
@@ -440,23 +423,28 @@ position: relative;
   letter-spacing: 0.02em;
   text-decoration: none;
    }
- .text .header-icon:hover,
- .text .header-icon:focus,
- .text .link:hover, 
- .text .link:focus{
+ .text_header-icon:hover,
+ .text_header-icon:focus,
+ .text_link:hover, 
+ .text_link:focus{
    color: var(--accent-color);
    fill: var(--accent-color);
  }
-  .header-icon{
+  .text_header-icon{
   fill: currentColor;
   }
+  .text_header-icon{
+    width: 15px;
+    height: 16px;
+    margin-right: 10px;
+  }
 
-  .text{
+  .text {
     display: flex;
     margin-left: auto;
    
  }
- .text .list + .list{
+ .text_list+ .text_list{
    margin-left: 50px;
  }
  
