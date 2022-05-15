@@ -11,7 +11,7 @@
     rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 
- <link rel="stylesheet" href="./css/styles.css">
+ <link rel="stylesheet" href="./scss/styles.css">
 </head> 
 <body> 
    
@@ -29,15 +29,15 @@
       </ul>
     </nav>
         <ul class="text">
-    <li class="text_list"><a class="text_link" href="malito:info@devstudio.com">
-                <svg class="text_header-icon">
+    <li class="text__list"><a class="text__link" href="malito:info@devstudio.com">
+                <svg class="text__header-icon">
                     <use href="./images/sprite.svg#icon-envelope" width="15" height="16px"></use>
                 </svg>
                 info@devstudio.com
              </a>
             </li>
-            <li class="text_list"><a class="text_link" href="tel+380961111111">
-                <svg class="text_header-icon">
+            <li class="text__list"><a class="text__link" href="tel+380961111111">
+                <svg class="text__header-icon">
                     <use href="./images/sprite.svg#icon-smartphone" width="15px" height="16px"></use>
                 </svg>
                 +38 096 111 11 11
@@ -103,40 +103,27 @@
         </div>
     </section>
     <!--Чем мы занимаемся-->
-    <section class="section-text">
+    <section class="section-lessons">
         <div class="container">
         <h2 class="section-title indet-title">Чем мы занимаемся</h2>
         <ul class="list-activities">
-            
-          <li class="list-activities__item">
-            <!-- <div class="dex-content"> -->
+             <li class="list-activities__item">
               <img src="./images/photo.jpg" width="370" height="294" alt=Програмирование >
-            <!-- <div class="desktop-application"> -->
                <p class="list-activities__text">Десктопные приложения</p>
-            <!-- </div> -->
-            <!-- </div> -->
             </li>
            <li class="list-activities__item">
-            <!-- <div class="dex-content"> -->
              <img src="./images/photo1.jpg" width="370" height="294" alt=Оформление>
-            <!-- <div class="desktop-application"> -->
                 <p class="list-activities__text">Мобильные приложения</p>
-            <!-- </div>
-            </div> -->
            </li>
            <li class="list-activities__item">
-            <!-- <div class="dex-content"> -->
             <img src="./images/photo2).jpg" width="370" height="294" alt=Установка>
-            <!-- <div class="desktop-application"> -->
                 <p class="list-activities__text">Дизайнерские решения</p>
-            <!-- </div>
-            </div> -->
-           </li> 
+            </li> 
         </ul>
         </div>
     </section>
     <!--Наша команда-->
-    <section class="section-list">
+    <section class="our-team">
      <div class="container">
         <h2 class="section-title indet-title" >Наша команда</h2>
         <ul class="list-command">
@@ -409,7 +396,6 @@
 </button>
 
  <form class="form" action="#" autocomplete="off" novalidate>
-      <!-- <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2> -->
       <span class="form-title">Оставьте свои данные, мы вам перезвоним</span>
      <div class="form__class-position list-top">
      <label class="form__class-label" for="name" > Имя</label>

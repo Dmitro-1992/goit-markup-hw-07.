@@ -1,0 +1,16 @@
+@import'./componenst/header';
+@import'./componenst/hero';
+@import'./componenst/benefits';
+@import'./componenst/lessons'; 
+@import'./componenst/our-team';
+@import'./componenst/clients';
+@import'./componenst/footer';
+@import'./componenst/modal-window';
+/* портфолио */
+ @import'./portfolio/portfolio-element'; 
+/*        utils       */
+@import'./utils/visually';
+@import'./utils/variables';
+
+/*       базовые сss        */
+@import'./base/base';

@@ -1,0 +1,108 @@
+/* верхняя черта между header и hero */
+.header{
+    /* border: 1px solid #ECECEC; */
+    background-color: var(--logo-footer-color);
+    border-bottom:1px solid #ECECEC;
+    }
+    .header__nav-flex {
+      /* align-items: center; */
+      display: flex;
+    }  
+    .header__nav{
+      align-items: center;
+      display: flex;
+    }
+    .logo{
+  
+      color: var(--logo-nav-color);
+      font-family: Raleway, sans-serif;
+    
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      font-size: normal;
+      text-decoration: none;
+      font-style: normal;
+     }
+     .logo__part-logo{
+      color: var(--accent-color);
+    }
+    .site-nav{
+      display: flex;  
+      margin-left: 93px;
+      }
+      .nav-heder{
+        margin-left: 93px;
+      }
+      .site-nav__list+ .site-nav__list{
+        margin-left: 50px;
+      }
+      .site-nav__link{
+        position: relative;
+        
+          padding-top: 32px;
+          padding-bottom: 32px;
+        
+          color: var(--primary-text-color);
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 1.14;
+          text-decoration: none;
+          transition-duration:color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+        }
+        .site-nav__link--current::after {
+          position: absolute;
+          content: "";
+          display: block;
+          height: 4px;
+          border-radius: 2px;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          background-color: var(--accent-color);
+        }
+  
+        .site-nav__link--current {
+          color: var(--accent-color);
+        }
+        /* сайт nav */
+        
+        .site-nav__link:hover,
+        .site-nav__link:focus {
+            color: var(--accent-color);
+         } 
+         .text {
+          display: flex;
+          margin-left: auto;
+         
+       }
+       .text__list+ .text__list{
+         margin-left: 50px;
+       }
+       .text__link{
+        align-items: center;
+        display: inline-flex;
+        color:var(--title-text-paragraph);
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+         }
+       .text__header-icon:hover,
+       .text__header-icon:focus,
+       .text__link:hover, 
+       .text__link:focus{
+         color: var(--accent-color);
+         fill: var(--accent-color);
+       }
+         .text__header-icon{
+        fill: currentColor;
+        } 
+        .text__header-icon{
+          width: 15px;
+          height: 16px;
+          margin-right: 10px;
+        }

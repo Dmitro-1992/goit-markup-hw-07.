@@ -1,0 +1,12 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-paragraph: #757575;
+    --accent-color: #2196F3;
+    --primary-bg-color:#E5E5E5;
+    --logo-nav-color:#000000;
+    --logo-footer-color:#FFFFFF;
+    --address-footer-color:#F5F4FA;
+    --h1-color:#2F303A;
+    --cube-color:cubic-bezier(0.4, 0, 0.2, 1);
+    --form-input-color:rgba(33, 33, 33, 0.2);
+ }
