@@ -1,49 +1,46 @@
- .hero{
-    text-align: center;
-    background-color: var(--h1-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image:linear-gradient(to left,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../../images/Img\ hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    } 
+.hero{
+  text-align: center;
+  background-color: $h1-color;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image:linear-gradient(to left,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+  url(../../images/Img\ hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
  
-    .hero__title {
-      max-width: 1600px;
-       text-transform: uppercase; 
-       margin-top: 0; 
-      margin: 0 auto;
-      margin-bottom: 30px;
-      color: var(--address-footer-color);
-       width: 696px;
-      font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 0.06em;
-    }
-    .hero__button {
-      display: inline-block;  
-  
-      border-radius: 4px;
-      padding: 10px 32px;
-      min-width: 200px;
-      color: var(--address-footer-color);
-      background-color:var(--accent-color);
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 30px;
+  &__title {
+    max-width: 1600px;
+     text-transform: uppercase; 
+     margin-top: 0; 
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: $address-footer-color;
+     width: 696px;
+    font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      text-transform: uppercase;
+      text-align: center;
       letter-spacing: 0.06em;
-      border: none;
-      } 
-    .hero__button:hover,
-    .hero__button:focus {
-    background-color: #188CE8;
+    }
+     &__button {
+    display: inline-block;  
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    color: $address-footer-color;
+    background-color: $accent-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border: none;
     } 
-    
-  
-  
-   
+   &__button:hover,
+   &__button:focus {
+   background-color: #188CE8;
+  } 
+ 
+  } 

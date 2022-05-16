@@ -1,178 +1,187 @@
-.section-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #2F303A;
-  }
-  .section-footer .container{
-    display: flex;
-    align-items: baseline;
-  }
-  /* логин в футаре */
+// 
+ .section-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2F303A;
+}
+.section-footer .container{
+  display: flex;
+  align-items: baseline;
+}
+/* логин в футаре */
 .footer-logo{
-    margin-bottom: 20px;
-    display: block;
-    color: var(--logo-footer-color);
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
-    line-height:1.19;
-    font-size: normal;
-    text-decoration: none;
-    padding: 0;
-  }
-
-  .footer-logo__part-logo{
-    color: var(--accent-color);
-  }
-   /* футер адрес */
-   .active{
-    font-style: normal;
-   } 
-   .active__address{
-    flex-direction: column;
-    font-style: normal;
-    margin-bottom: 9px;
-    color: var(--address-footer-color);
-    font-family: Roboto,normal;
-    font-size: 14px;
-    line-height: 1.71;
-    }
-    .active__address>li:hover,  
-    .active__address>li:focus {
-     color: #2196F3;
-    }
-
-   .active__address>li:not(:last-child){
-    display: block;
-   }
-   /* почта телефон */
-
-   .link-list__link {
-    color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    text-decoration: none;
-  }
-  
-  .link-list__link:hover, 
-  .link-list__link:focus {
-    color: #2196F3;
-
-  }
-  .link-list>li:not(:last-child) {
-   display: block;
-   margin-bottom: 9px;
-  }
-                          /* присоединяйтесь */
-
-  .footer{
-    margin-left: 70px;
-    width: 206px;
-    }
-    .join-footer{
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 1.14;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     margin-bottom: 20px;
-      color: var(--logo-footer-color);
-     }
-     .footer-text{
-     display: flex;
-     justify-content: space-between;
-    } 
-   .foorer-contacts__list{
-     width: 44px;
-      height: 44px;
-      } 
-    
-    .foorer-contacts__link{
-     width: 44px;
-     height: 44px;
-     border-radius: 50%;
-     background: rgba(255, 255, 255, 0.1);
-     display: block;
-     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-     }
-     .foorer-contacts__link:hover,
-     .foorer-contacts__link:focus{
-      background-color: var(--accent-color);
-     }
-      .foorer-contacts__icon {
-     width: 20px;
-     height: 20px;
-     margin: 12px 0 0 12px; 
-     fill: var(--logo-footer-color);
-    }
-                            /*  Подпишитесь на рассылку*/
-    .footer-mailing{
-        margin-left: auto;
-      }
-      .title-mailing {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        color: var(--logo-footer-color);
-      } 
-      .footer-mailing__leibel{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        color:rgba(255, 255, 255, 0.6);
-        }
-        .footer-mailing__input{
-         margin: 0;
-        width: 358px;
-        padding: 15px 16px;
-        outline: none;
-        border-radius: 4px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        background: var(--h1-color);
-        color: var(--accent-color);
-          }           
-       .footer-mailing__input::placeholder{
-         color: rgba(255, 255, 255, 0.6);
-          }
-          .footer-mailing__button {
-            display:inline-flex;
-             align-items: center;
-             justify-content: center;
-            
-             margin: 0 ;
-             border-radius: 4px;
-            width: 200px;
-             padding:0;
-             margin-left: 12px;
-             height: 50px;
-             color: var(--address-footer-color);
-             box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-             background-color: var(--accent-color);
-             font-family: 'Roboto';
-             font-style: normal;
-             font-weight: 700;
-             font-size: 16px;
-             line-height: 1.87;
-             letter-spacing: 0.06em;
-             border: none; 
-         
-         }
-         .footer-mailing__button::after{
-           content: "";
-           margin-left: 10px;
-           width: 24px;
-           height: 24px;
-           background-image: url(../../images/icon\ \ telegram.svg);
-         }
-         
-    
+  margin-bottom: 20px;
+  display: block;
+  color: var(--logo-footer-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height:1.19;
+  font-size: normal;
+  text-decoration: none;
+  padding: 0;
+  .__part-logo{
+  color: var(--accent-color);
+}
+}
 
 
+ /* футер адрес */
+ .active{
+  font-style: normal;
  
+  &__address{
+  flex-direction: column;
+  font-style: normal;
+  margin-bottom: 9px;
+  color: var(--address-footer-color);
+  font-family: Roboto,normal;
+  font-size: 14px;
+  line-height: 1.71;
+  }
+  &__address>li:hover,  
+  &__address>li:focus {
+   color: #2196F3;
+  }
+  &__address>li:not(:last-child){
+  display: block;
+ }
+ } 
+  /* почта телефон */
+
+ .link-list__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.link-list__link:hover, 
+.link-list__link:focus {
+  color: #2196F3;
+
+}
+.link-list>li:not(:last-child) {
+ display: block;
+ margin-bottom: 9px;
+}
+                        /* присоединяйтесь */
+
+.footer{
+  margin-left: 70px;
+  width: 206px;
+  }
+  .join-footer{
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+    color: var(--logo-footer-color);
+   }
+   .footer-text{
+   display: flex;
+   justify-content: space-between;
+  } 
+  
+  
+ .foorer-contacts__list{
+   width: 44px;
+    height: 44px;
+  } 
+   .foorer-contacts__link{
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   background: rgba(255, 255, 255, 0.1);
+   display: block;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+   }
+  
+  
+   .foorer-contacts__link:hover,
+   .foorer-contacts__link:focus{
+    background-color: var(--accent-color);
+   }
+    .foorer-contacts__icon {
+   width: 20px;
+   height: 20px;
+   margin: 12px 0 0 12px; 
+   fill: var(--logo-footer-color);
+  }
+                          /*  Подпишитесь на рассылку*/
+  .footer-mailing{
+      margin-left: auto;
+       &__leibel{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;
+      color:rgba(255, 255, 255, 0.6);
+      }
+       &__leibel{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.25;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.03em;
+      color:rgba(255, 255, 255, 0.6);
+      }
+       &__input{
+       margin: 0;
+      width: 358px;
+      padding: 15px 16px;
+      outline: none;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      background: var(--h1-color);
+      color: var(--accent-color);
+        }    
+        &__input::placeholder{
+       color: rgba(255, 255, 255, 0.6);
+        }
+        
+        &__button {
+          display:inline-flex;
+           align-items: center;
+           justify-content: center;
+          
+           margin: 0 ;
+           border-radius: 4px;
+          width: 200px;
+           padding:0;
+           margin-left: 12px;
+           height: 50px;
+           color: var(--address-footer-color);
+           box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+           background-color: var(--accent-color);
+           font-family: 'Roboto';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 16px;
+           line-height: 1.87;
+           letter-spacing: 0.06em;
+           border: none; 
+          }
+         &__button::after{
+          content: "";
+          margin-left: 10px;
+          width: 24px;
+          height: 24px;
+          background-image: url(../../images/icon\ \ telegram.svg);
+        }
+     }
+    .title-mailing {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: var(--logo-footer-color);
+    } 

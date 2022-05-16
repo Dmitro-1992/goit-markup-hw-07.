@@ -1,3 +1,8 @@
+/*        utils       */
+
+@import'./utils/visually';
+@import'./utils/variables';
+
 @import'./componenst/header';
 @import'./componenst/hero';
 @import'./componenst/benefits';
@@ -8,9 +13,7 @@
 @import'./componenst/modal-window';
 /* портфолио */
  @import'./portfolio/portfolio-element'; 
-/*        utils       */
-@import'./utils/visually';
-@import'./utils/variables';
+
 
 /*       базовые сss        */
 @import'./base/base';

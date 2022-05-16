@@ -21,15 +21,16 @@
     .list-activities__item+ .list-activities__item{
       margin-left: 30px;
     }
-    .list-activities__list-activities__item{
+      /* .list-activities__item{
       display: block;
       max-width: 100%;
       height: auto;
-    }
+    }   */
     
     .list-activities__item{
     position: relative;
     display: inline-block;
+    
     }
   
     .list-activities__text{
